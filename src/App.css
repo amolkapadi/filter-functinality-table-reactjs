@@ -1,0 +1,70 @@
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  height: 35px;
+  background-color: blue;
+  border: none;
+  color: white;
+  width: 150px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.filter-icon {
+  width: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.filter-menu {
+  position: absolute;
+  background: aquamarine;
+  padding: 10px;
+  cursor: pointer;
+  right: 161px;
+}
+
+.filter-name:hover {
+  color: blue;
+}
+
+.selected-filter {
+  padding-bottom: 20px;
+}
+
+.display-options {
+  background-color: #dddddd;
+  padding: 2px 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
